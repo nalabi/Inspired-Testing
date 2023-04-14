@@ -26,11 +26,6 @@ namespace Inspire
 
         }
 
-        [Test]
-        public void Test2()
-        {
-            TakelotPages takelot = new TakelotPages();
-            takelot.ShppoingCart();
-        }
+      
     }
 }
