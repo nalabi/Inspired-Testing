@@ -22,11 +22,8 @@ namespace Inspire
         public void Test1()
         {
             TakelotPages  takelot= new TakelotPages();
-            takelot.BrandStore.Click();
-            takelot.Booklnk.Click();
-           takelot.AddToCartbtn.Click();
-           takelot.ViewBag.Click();
-            takelot.ShppoingCart();
+            takelot.TestAddViewProduct();
+
         }
 
         [Test]

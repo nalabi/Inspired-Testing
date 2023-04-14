@@ -29,6 +29,16 @@ namespace Inspire
         {
             Assert.AreEqual(ViewCart.Text, ShoppingCart);
             return this;
+
+        }
+
+        public void TestAddViewProduct()
+        {
+            BrandStore.Click();
+            Booklnk.Click();
+            AddToCartbtn.Click();
+            ViewBag.Click();
+            ShppoingCart();
         }
     }
 }
